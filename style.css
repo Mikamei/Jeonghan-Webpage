@@ -1,0 +1,149 @@
+    * {
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+		text-decoration: none;
+		font-size: 20px;
+        padding: 0px;
+    }
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://pbs.twimg.com/media/DxzmgUmWwAA2SbB?format=jpg&name=large);
+        height: 100%;
+    }
+    .navbar{
+        padding-top: 2%;
+        padding-left: 8%;
+        padding-right: 8%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+        color: white;
+        text-shadow: 0 0 5px #999;
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    nav{
+        text-align: left;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 60px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+    }
+    .card-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+    .photo{
+        width: 275px;
+        background-color: #f0f0f0;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        margin:20px;
+    }
+    .photo:hover{
+        transform: translateY(-10px);
+    }
+    .photo img{
+        width: 100%;
+        height:auto;
+    }
+    .card-content{
+        padding: 16px;
+    }
+    .card-content h3{
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+    .card-content .btn{
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #775f69;
+        text-decoration: none;
+        border-radius: 20px;
+        margin-top: 16px;
+        color: white;
+    }
+    .wrapper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .wrapper .button {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin: 0 5px;
+        overflow: hidden;
+        border-radius: 100px;
+        background: #fff;
+        cursor: pointer;
+        box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.2s ease-out;
+    }
+    .wrapper .button:hover {
+        width: 200px;
+    }
+    .wrapper .button .icon {
+        display: inline-block;
+        text-align: center;
+		width: 48px;
+        line-height: 50px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        transition: all 0.2s ease-out;
+    }
+	.wrapper .button:nth-child(1):hover .icon{
+		background: #0866ff;
+	}
+	.wrapper .button:nth-child(2):hover .icon{
+		background: #D62976;
+	}
+	.wrapper .button:nth-child(3):hover .icon{
+		background: #08a0e9;
+	}
+	.wrapper .button:nth-child(4):hover .icon{
+		background: #211F1F;
+	}
+	.wrapper .button .icon i{
+		font-size: 25px;
+		line-height: 50px;
+		transition: all 0.2s ease-out;
+	}
+	.wrapper .button:hover .icon i{
+		color: #fff;
+	}
+    .wrapper .button span {
+        font-size: 23px;
+        font-weight: 450;
+        line-height: 55px;
+        margin-left: 8px;
+        transition: all 0.2s ease-out;
+    }
+    .wrapper .button:nth-child(1):hover span {
+        color: #0866ff;
+    }
+	.wrapper .button:nth-child(2):hover span {
+        color: #D62976;
+    }
+	.wrapper .button:nth-child(3):hover span {
+        color: #08a0e9;
+    }
+	.wrapper .button:nth-child(4):hover span {
+        color: #211F1F;
+    }
+    
